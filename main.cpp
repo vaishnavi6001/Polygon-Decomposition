@@ -18,14 +18,11 @@ class Edge{
     Face *left; //incident face
     Edge *next;
     Edge *prev;
-
-
 };
 
 class Face{
     public:
     Edge *inc_edge;
-
     vector<Vertex *> enumerate_vertices(Face *f);
 };
 
